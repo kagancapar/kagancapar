@@ -14,6 +14,14 @@ Offensive Security Lead at TurkNet. Independent researcher with the Trend Zero D
 
 Image and colour-profile parsers are a recurring target of mine. The gdk-pixbuf bug reached essentially every Linux desktop, including RHEL, Ubuntu, Debian, Fedora and Arch.
 
+### CVE-2022-29072, 7-Zip
+
+[Repository](https://github.com/kagancapar/CVE-2022-29072) · 670+ stars, 100+ forks
+
+Command execution through the Help>Contents handler in 7-Zip 21.07, found with WinAFL. The root cause is a misconfiguration of `7z.dll` combined with a heap overflow, and the command runs in a child process under `7zFM.exe`. [NVD](https://nvd.nist.gov/vuln/detail/CVE-2022-29072) scores it 7.8 and records that third parties contest whether privilege escalation is actually achievable.
+
+I have left the write-up and the proof of concept up rather than quietly removing them. The mechanism is reproducible and people are welcome to judge it for themselves.
+
 ### Talks
 
 **DEF CON 34**, main stage, Las Vegas 2026
