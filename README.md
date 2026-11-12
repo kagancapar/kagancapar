@@ -13,6 +13,7 @@ Offensive Security Lead at TurkNet. Independent researcher with the Trend Zero D
 | [CVE-2026-5201](https://nvd.nist.gov/vuln/detail/CVE-2026-5201) | GNOME gdk-pixbuf JPEG loader | Heap buffer overflow | CVSS 7.5, Red Hat Important |
 | [CVE-2022-29072](https://nvd.nist.gov/vuln/detail/CVE-2022-29072) | 7-Zip 21.07 (`7z.dll`) | Command execution via the Help>Contents handler | CVSS 7.8 |
 | [CVE-2021-47881](https://nvd.nist.gov/vuln/detail/CVE-2021-47881) | dataSIMS Avionics ARINC 664-1 | Stack overflow, full instruction-pointer control | Code execution, [PoC published](https://www.exploit-db.com/exploits/49577) |
+| [CVE-2019-25677](https://nvd.nist.gov/vuln/detail/CVE-2019-25677) | WinRAR 5.61 (`winrar.lng` language file) | Denial of service via a malformed language file | CVSS 6.2 |
 
 Image and colour-profile parsers are a recurring target of mine. The gdk-pixbuf bug reached essentially every Linux desktop, including RHEL, Ubuntu, Debian, Fedora and Arch.
 
