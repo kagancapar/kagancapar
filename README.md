@@ -8,6 +8,7 @@ Offensive Security Lead at TurkNet. Independent researcher with the Trend Zero D
 
 | CVE | Target | Class | Severity |
 | --- | --- | --- | --- |
+| [CVE-2026-96054](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96054) | Microsoft Color Management (Windows) | Heap-based buffer overflow, remote code execution | CVSS 7.0, Microsoft Important |
 | [CVE-2026-54984](https://www.zerodayinitiative.com/advisories/ZDI-26-543/) | Windows ICC profile parsing (`Mscms.dll`) | Out-of-bounds write, remote code execution | CVSS 7.8 |
 | [CVE-2026-5201](https://nvd.nist.gov/vuln/detail/CVE-2026-5201) | GNOME gdk-pixbuf JPEG loader | Heap buffer overflow | CVSS 7.5, Red Hat Important |
 | [CVE-2022-29072](https://nvd.nist.gov/vuln/detail/CVE-2022-29072) | 7-Zip 21.07 (`7z.dll`) | Command execution via the Help>Contents handler | CVSS 7.8 |
